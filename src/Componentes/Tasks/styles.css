@@ -1,0 +1,54 @@
+.task {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.6rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+  gap: 1.2rem;
+}
+
+.task .wraper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.task .wraper button {
+  border: none;
+  background: transparent;
+}
+
+.task .wraper button div {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.task .wraper p {
+  font-size: 1.4rem;
+  color: var(--gray-100);
+}
+
+.task button {
+  border: none;
+  background: transparent;
+  height: 2.4rem;
+  cursor: pointer;
+}
+
+.task button svg {
+  color: var(--gray-300);
+  transition: 0.2s;
+}
+
+.task button svg:hover {
+  color: var( --danger);
+}

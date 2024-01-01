@@ -1,0 +1,58 @@
+.numberTasks {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.colorBlue {
+  color: var(--blue);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.colorPurple {
+  color: var(--purple);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.placar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 .8rem;
+  height: 1.9rem;
+  border-radius: 45%;
+  background-color: var(--gray-400);
+}
+
+.placar p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--gray-200);
+}
+
+.placar .checking {
+  display: none;
+} 
+
+.placarChecking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 .8rem;
+  height: 1.9rem;
+  border-radius: 40%;
+  background-color: var(--gray-400);
+  gap: .4rem;
+}
+
+.placarChecking .noChecking {
+  display: none;
+}
+
+.placarChecking p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--gray-200);
+}

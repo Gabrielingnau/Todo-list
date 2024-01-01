@@ -1,0 +1,91 @@
+.wraper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main {
+  max-width: 76.3rem;
+  margin-top: -2.7rem;
+  background: transparent;
+}
+
+main header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+}
+
+main header input {
+  border: 2px solid var(--gray-700);
+  background-color: var(--gray-500);
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+
+main header input::placeholder {
+  color: var(--gray-300);
+}
+
+main header button {
+  width: 9rem;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  gap: .6rem;
+  background-color: var(--blue);
+  color: var(--gray-100);
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+main header button:hover {
+  background-color: var(--blue-dark);
+}
+
+main form {
+  display: flex;
+  width: 73.6rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+main form .controllers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6.4rem;
+}
+
+main form .tasks {
+  max-height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+:-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: .6rem;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gray-400);
+  border-radius: 1rem;
+}
