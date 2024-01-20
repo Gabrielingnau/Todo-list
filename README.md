@@ -29,7 +29,12 @@ The layout of the application is available in Figma:
 
 These instructions will allow you to obtain a copy of the working project on your local machine for development and testing purposes.
 
-### 🔧 Installation
+## 🔧 Installation
+
+### Prerequisites
+
+Before you begin, you will need to have the following tool installed on your machine:
+[VSCode](https://code.visualstudio.com/)
 
 Inside the VsCode terminal write the following code
 
