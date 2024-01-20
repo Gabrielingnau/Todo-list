@@ -19,10 +19,10 @@ The layout of the application is available in Figma:
 
 ## Applied Concepts
 
--States
+- States
 - State immutability
 - Lists and keys in React Native
--Properties
+- Properties
 - Componentization
 
 ## 🚀 Starting
