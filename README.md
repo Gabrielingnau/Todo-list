@@ -1,4 +1,7 @@
 # Todo List
+<p align="center">
+  <p align="center"><a href="https://github.com/Gabrielingnau/Todo-list-mobile">View the mobile version</a></p>
+</p>
 
 A to-do list-style task tracking application
 
