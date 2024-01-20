@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação de controle de tarefas no estilo to-do list
 
-Currently, two official plugins are available:
+## 🎨 Layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![projeto TodoList](https://github.com/Gabrielingnau/GitFav/assets/116130802/d1cae9d8-61b3-46fe-bb24-8b4fa14191d1)
 
-## Expanding the ESLint configuration
+The layout of the application is available in Figma:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<a href="https://www.figma.com/file/t0CFUyoBPqUs39o6ucI2LR/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?node-id=4130%3A474&mode=dev">
+  <img alt="Made by tgmarinho" src="./src/Assets/projeto TodoList.png">
+</a>
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Starting
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+These instructions will allow you to obtain a copy of the working project on your local machine for development and testing purposes.
+
+### 🔧 Installation
+
+Inside the VsCode terminal write the following code
+
+```
+git init
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```
+git clone https://github.com/Gabrielingnau/My-Portfolio
+```
+Then intade the dependencies with
+
+```
+npm install
+```
+
+Then just run the project with
+
+```
+npm run dev
+```
+
+## 🛠️ Built with
+
+* [React.js](https://react.dev/) - The library for user interfaces
+* [Vite](https://vitejs.dev/) - FrontEnd Tool
+* [Typescript](https://www.typescriptlang.org/) - Syntax for types
+* [Styled Components](https://styled-components.com/) - CSS for the <Component> Age
+
+---
+⌨️ with ❤️ by [Gabriel Lingnau](https://github.com/Gabrielingnau) 😊

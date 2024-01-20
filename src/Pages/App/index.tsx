@@ -10,12 +10,14 @@ import { NoTasks } from '../../Componentes/NoTasks';
 
 export function App () {
 
-  const [tasks, setTasks] = useState([
-    {
-      id: id(),
-      title: 'lldlsd',
-      idChecking: false
-    }
+  interface tasksProps {
+    id: string;
+    title: string;
+    idChecking: boolean;
+  }
+
+  const [tasks, setTasks] = useState<tasksProps[]>([
+ 
   ])
   
   const [NewTaskText, setNewTaskText] = useState('')
