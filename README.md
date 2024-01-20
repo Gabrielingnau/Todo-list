@@ -1,10 +1,10 @@
 # Todo List
 
-Uma aplicação de controle de tarefas no estilo to-do list
+A to-do list-style task tracking application
 
 ## 🎨 Layout
 
-![projeto TodoList](https://github.com/Gabrielingnau/GitFav/assets/116130802/d1cae9d8-61b3-46fe-bb24-8b4fa14191d1)
+
 
 The layout of the application is available in Figma:
 
@@ -44,7 +44,7 @@ npm run dev
 * [React.js](https://react.dev/) - The library for user interfaces
 * [Vite](https://vitejs.dev/) - FrontEnd Tool
 * [Typescript](https://www.typescriptlang.org/) - Syntax for types
-* [Styled Components](https://styled-components.com/) - CSS for the <Component> Age
 
 ---
 ⌨️ with ❤️ by [Gabriel Lingnau](https://github.com/Gabrielingnau) 😊
+=======
