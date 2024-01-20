@@ -10,6 +10,21 @@ The layout of the application is available in Figma:
   <img alt="Made by tgmarinho" src="./src/Assets/projeto TodoList.png">
 </a>
 
+## Features
+
+- Add a new task
+- Mark and unmark a task as complete
+- Remove a task from the listing
+- Show the progress of completing tasks
+
+## Applied Concepts
+
+-States
+- State immutability
+- Lists and keys in React Native
+-Properties
+- Componentization
+
 ## 🚀 Starting
 
 These instructions will allow you to obtain a copy of the working project on your local machine for development and testing purposes.
