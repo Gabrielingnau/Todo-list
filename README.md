@@ -4,8 +4,6 @@ A to-do list-style task tracking application
 
 ## 🎨 Layout
 
-
-
 The layout of the application is available in Figma:
 
 <a href="https://www.figma.com/file/t0CFUyoBPqUs39o6ucI2LR/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?node-id=4130%3A474&mode=dev">
@@ -25,7 +23,7 @@ git init
 ```
 
 ```
-git clone https://github.com/Gabrielingnau/My-Portfolio
+git clone https://github.com/Gabrielingnau/Todo-list
 ```
 Then intade the dependencies with
 
