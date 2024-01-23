@@ -3,14 +3,20 @@
   <p align="center"><a href="https://github.com/Gabrielingnau/Todo-list-mobile">View the mobile version</a></p>
 </p>
 
+<p align="center">
+  <img width="800" src="./src/Assets/Cover (1).png">
+</p>
+
+## 💻 About:
+
 A to-do list-style task tracking application
 
 ## 🎨 Layout
 
 The layout of the application is available in Figma:
 
-<a href="https://www.figma.com/file/t0CFUyoBPqUs39o6ucI2LR/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?node-id=4130%3A474&mode=dev">
-  <img alt="Made by tgmarinho" src="./src/Assets/projeto TodoList.png">
+<a href="https://www.figma.com/file/KjwHo96hyKwccSPaPg4VJu/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?node-id=56%3A96&mode=dev">
+  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
 ## Features
